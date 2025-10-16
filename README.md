@@ -91,37 +91,36 @@ text
 
 ## Project Structure
 CSTech_assignment_project/
-backend/
-├── models/
-│ ├── Agent.js
-│ ├── User.js
-│ └── DistributedList.js
-├── routes/
-│ ├── auth.js
-│ ├── agents.js
-│ └── lists.js
-├── middleware/
-│ └── authMiddleware.js
-├── controllers/
-├── .env
-├── app.js
-└── package.json
-
-frontend/
-├── src/
-│ ├── components/
-│ │ ├── LoginForm.js
-│ │ ├── AgentForm.js
-│ │ ├── CsvUpload.js
-│ │ └── AgentList.js
-│ ├── pages/
-│ │ ├── Dashboard.js
-│ │ └── Login.js
-│ │ └── Home.js
-│ │ └── Signup.js
-│ └── App.js
-├── .env
-├── package.json
+├── backend/
+│ ├── models/
+│ │ ├── Agent.js
+│ │ ├── User.js
+│ │ └── DistributedList.js
+│ ├── routes/
+│ │ ├── auth.js
+│ │ ├── agents.js
+│ │ └── lists.js
+│ ├── middleware/
+│ │ └── authMiddleware.js
+│ ├── controllers/
+│ ├── .env
+│ ├── app.js
+│ └── package.json
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── LoginForm.js
+│ │ │ ├── AgentForm.js
+│ │ │ ├── CsvUpload.js
+│ │ │ └── AgentList.js
+│ │ ├── pages/
+│ │ │ ├── Dashboard.js
+│ │ │ ├── Login.js
+│ │ │ ├── Home.js
+│ │ │ └── Signup.js
+│ │ └── App.js
+│ ├── .env
+│ └── package.json
 
 
 ## Demo
