@@ -90,37 +90,44 @@ text
 - **View Distributed Lists:** Lists assigned to each agent are displayed on dashboard
 
 ## Project Structure
+
+<h2>📁 Project Structure</h2>
+
+<pre>
 CSTech_assignment_project/
 ├── backend/
-│ ├── models/
-│ │ ├── Agent.js
-│ │ ├── User.js
-│ │ └── DistributedList.js
-│ ├── routes/
-│ │ ├── auth.js
-│ │ ├── agents.js
-│ │ └── lists.js
-│ ├── middleware/
-│ │ └── authMiddleware.js
-│ ├── controllers/
-│ ├── .env
-│ ├── app.js
-│ └── package.json
+│   ├── models/
+│   │   ├── Agent.js
+│   │   ├── User.js
+│   │   └── DistributedList.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── agents.js
+│   │   └── lists.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── controllers/
+│   ├── .env
+│   ├── app.js
+│   └── package.json
+│
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── LoginForm.js
-│ │ │ ├── AgentForm.js
-│ │ │ ├── CsvUpload.js
-│ │ │ └── AgentList.js
-│ │ ├── pages/
-│ │ │ ├── Dashboard.js
-│ │ │ ├── Login.js
-│ │ │ ├── Home.js
-│ │ │ └── Signup.js
-│ │ └── App.js
-│ ├── .env
-│ └── package.json
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── LoginForm.js
+│   │   │   ├── AgentForm.js
+│   │   │   ├── CsvUpload.js
+│   │   │   └── AgentList.js
+│   │   ├── pages/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Login.js
+│   │   │   ├── Home.js
+│   │   │   └── Signup.js
+│   │   └── App.js
+│   ├── .env
+│   └── package.json
+</pre>
+
 
 
 ## Demo
